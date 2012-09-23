@@ -12,4 +12,5 @@ resolvers := Seq(
 )
 
 libraryDependencies ++= Seq(
+	"org.apache.ant" % "ant" % "1.8.4"
 )
