@@ -12,5 +12,8 @@ resolvers := Seq(
 )
 
 libraryDependencies ++= Seq(
-	"org.apache.ant" % "ant" % "1.8.4"
+	"org.apache.ant" % "ant" % "1.8.4",
+	 "log4j" % "log4j" % "1.2.17",
+	 "org.slf4j" % "slf4j-api" % "1.6.6",
+	 "org.slf4j" % "slf4j-log4j12" % "1.6.6"
 )
